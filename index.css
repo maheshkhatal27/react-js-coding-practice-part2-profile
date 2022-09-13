@@ -1,0 +1,51 @@
+/* Write your code here. */
+.main-bg-container {
+  background-image: url("https://assets.ccbp.in/frontend/react-js/congrats-card-bg.png");
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.main-heading {
+  font-family: "Roboto";
+  color: #0f172a;
+  font-size: 26px;
+}
+.profile-container {
+  background-color: #cffafe;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+  border-bottom-left-radius: 7px;
+  border-bottom-right-radius: 7px;
+  text-align: center;
+}
+.profile-pic {
+  width: 20%;
+  margin-top: 25px;
+}
+.watch-pic {
+  width: 20%;
+  margin-bottom: 20px;
+}
+.name {
+  font-family: "Roboto";
+  color: #1e293b;
+  font-size: 20px;
+}
+.desc {
+  font-family: "Roboto";
+  color: #1e293b;
+  font-size: 16px;
+  align-self: center;
+}
+
+@media screen and (min-width: 768px) {
+  .main-heading {
+    font-size: 40px;
+  }
+}
